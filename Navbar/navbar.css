@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    font-family: sans-serif;
+    height: 80px;
+}
+
+.container{
+    position: relative;
+    height: 100%;
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo>img{
+    width: 80%;
+}
+
+nav > ul {
+    display: flex;
+    align-items: center;
+}
+
+nav > ul > li {
+    list-style: none;
+    padding: 35px;
+}
+
+nav > ul > li > a {
+    text-decoration: none;
+    color: #806d74;
+}
+
+/* Navbar buttons styling */
+
+.btn1{
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: white;
+    height: 40px;
+    /* margin-top: 4%; */
+    padding: 5px 20px;
+    font-weight: bold;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+.btn1>a{
+    color: #00b289;
+    text-decoration: none;
+}
+
+.btn1:hover{
+    background-color: #00b289;
+    color: white;
+}
+
+.btn1:hover>a{
+    color: white;
+}
+
+.btn2{
+    height: 40px;
+    /* margin-top: 4%; */
+    padding: 5px 20px;
+    background-color: #00b289;
+    font-weight: bold;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.btn2>a{
+    color: white;
+    text-decoration: none;
+}
+
+.btn2:hover{
+    background-color: #019b77;
+}
+
+
+/* Styling DropDown Menu Of Templates section
+1. Give position relative to the container */
+
+.dropdown2{
+    position: absolute;
+    width: 63%;
+    height: 400px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    top: 100%;
+    left: 380px;
+    opacity: 0;
+    visibility: hidden;
+    /* transition: 2s; */
+    background-color: white;
+}
+
+nav>ul>li:hover .dropdown2{
+    /* top: 100%; */
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Styling DropDown Menu Of Products section
+1. Give position relative to the container */
+
+.dropdown1{
+    position: absolute;
+    width: 30%;
+    height: 400px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    top: 100%;
+    left: 340px;
+    opacity: 0;
+    visibility: hidden;
+    background-color: white;
+}
+
+nav>ul>li:hover .dropdown1{
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Styling content of DropDown Menu Of Products section */
+
