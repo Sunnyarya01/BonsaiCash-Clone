@@ -11,7 +11,7 @@ header{
     height: 80px;
 }
 
-.container{
+.navbar{
     position: relative;
     height: 100%;
     width: 75%;
@@ -21,7 +21,7 @@ header{
     align-items: center;
 }
 
-.logo>img{
+.logo>a>img{
     width: 80%;
 }
 
@@ -38,6 +38,10 @@ nav > ul > li {
 nav > ul > li > a {
     text-decoration: none;
     color: #806d74;
+}
+
+.fa-solid{
+    font-size: 12px;
 }
 
 /* Navbar buttons styling */
@@ -92,8 +96,8 @@ nav > ul > li > a {
 
 .dropdown2{
     position: absolute;
-    width: 63%;
-    height: 400px;
+    width: 35%;
+    /* height: 400px; */
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     top: 100%;
     left: 380px;
@@ -115,7 +119,6 @@ nav>ul>li:hover .dropdown2{
 .dropdown1{
     position: absolute;
     width: 30%;
-    height: 400px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     top: 100%;
     left: 340px;
@@ -131,3 +134,60 @@ nav>ul>li:hover .dropdown1{
 
 /* Styling content of DropDown Menu Of Products section */
 
+.dropdown1{
+    padding: 15px 30px;
+}
+
+.productDropdown{
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.productDropdown>a{
+    text-decoration: none;
+    color: #806d74;
+}
+
+.productDropdown>a>h2{
+    margin-bottom: 10px;
+    font-size: 21px;
+}
+
+.productDropdown>a>p{
+    font-size: 17px;
+}
+
+/* Styling content of DropDown Menu Of Template section */
+
+.dropdown2{
+    margin: auto;
+}
+
+.dropdown2>div:first-child{
+    margin-top: 20px;
+}
+
+.dropdown2>div:last-child{
+    margin-bottom: 15px;
+}
+
+.templatesDropdown{
+    padding: 15px;
+    margin: auto;
+    margin-top: 5px;
+    width: 80%;
+}
+
+.templatesDropdown>a{
+    display: flex;
+    gap: 20px;  
+    text-decoration: none;
+    color: #806d74;
+    font-size: 14px;
+}
+
+.templatesDropdown:hover{
+    cursor: pointer;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
