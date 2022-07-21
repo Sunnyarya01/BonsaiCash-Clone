@@ -1,6 +1,6 @@
 let gogl = document.querySelector("#gogl");
 gogl.addEventListener("click",function(){
-    window.location.href = "/Sign UP/index.html"
+    window.location.href = "../index.html"
 })
 let form = document.querySelector("form");
 let login = document.querySelector("#btnn");
@@ -12,7 +12,7 @@ let login = document.querySelector("#btnn");
         }
 
         if(checkSignin(data.email,data.password)===true){
-            window.location.href="/Dashboard/index.html";
+            window.location.href="/fw19_0799_projects/Dashboard/index.html"
             alert("Sign in Successful");
         }else{
             alert("Wrong Username or Password");
