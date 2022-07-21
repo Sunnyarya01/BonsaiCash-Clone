@@ -1,0 +1,381 @@
+main{
+    position: relative;
+}
+
+/* styling part-1 of home page */
+#part1{
+    /* border: 1px solid black; */
+    display: flex;
+    width: 75%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#part1>div:nth-child(2)>h1{
+    font-size: 45px;
+    line-height: 55px;
+    color: #4C525A;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-top: 65px;
+}
+
+#part1>div:nth-child(2)>h4{
+    font-size: 20px;
+    color: #4C525A;
+    line-height: 27px;
+    font-weight: 400;
+}
+
+/* Styling of blue-back-box1 */
+.back-box1{
+    width:50%;
+    height: 700px;
+    position: absolute;
+    right: 7%;
+    top: -5%;
+    z-index: -1;
+    /* background: red; */
+    background: #f2faff;
+    border-radius: 100px;
+    transform: rotate(-23deg);
+}
+
+/* styling input in part1 of div */
+
+#part1>div:nth-child(2)>#input{
+    margin-top: 30px;
+    height: 60px;
+    border-radius: 2px;
+    border: 2px solid #00b289;
+    background-color: #00b289;
+}
+
+#part1>div:nth-child(2)>#input>input{
+    width: 72%;
+    height: 100%;
+    padding: 15px;
+    font-size: 16px;
+    border-style: none;
+    color: #4C525A;
+}
+
+#part1>div:nth-child(2)>#input>input:focus{
+    outline: none;
+}
+
+#part1>div:nth-child(2)>#input>button{
+    height: 100%;
+    width: 27%;
+    background-color: #00b289;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+#part1>div:nth-child(2)>#input>button:hover{
+    cursor: pointer;
+    background-color: #06a983;
+}
+
+#part1>div:last-child>img{
+    width: 100%;
+    margin-left: 15%;
+}
+
+/* style part-2 of home page */
+
+#part2{
+    margin-top: 80px;
+    position: relative;
+}
+
+#part2>h2{
+    text-align: center;
+    font-size: 32px;
+    color: #4C525A;
+    font-weight: 500;
+}
+#part2>p{
+    margin: auto;
+    font-size: 23px;
+    color: #4C525A;
+    margin-top: 12px;
+    text-align: center;
+    width: 40%;
+    font-weight: 100;
+    line-height: 30px;
+}
+
+#part2>div{
+    /* border: 1px solid teal; */
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#part2>div h3{
+    color: #4C525A;
+    font-size: 23px;
+    margin-bottom: 35px;
+}
+
+#part2>div img{
+    width: 95%;
+}
+
+/* Styling of blue-back-box2 */
+.back-box2{
+    /* width: 80%; */
+    height: 300px;
+    position: absolute;
+    left: -40%;
+    top: 10%;
+    z-index: -1;
+    /* background: red; */
+    background: #f2faff;
+    border-radius: 100px;
+    transform: rotate(65deg);
+}
+
+/* style part-3 of home page */
+#part3{
+    margin-top: 120px;
+    position: relative;
+}
+
+#part3>div{
+    /* border: 1px solid teal; */
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#part3>div>div:first-child{
+    /* border: 1px solid blueviolet; */
+    width: 30%;
+}
+
+#part3>div>div:first-child div{
+    /* border-bottom: 0.2px solid gray; */
+    display: flex;
+    gap: 18px;
+    color: #4C525A;
+    padding: 20px;
+    font-size: 19px;
+}
+#part3>div>div:first-child div:hover{
+    cursor: pointer;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#part3>div>div:last-child{
+    /* border: 1px solid blueviolet; */
+    width: 60%;
+    color: #4C525A;
+}
+
+#part3>div>div:last-child>h2{
+    font-size: 32px;
+    font-weight: 400px;
+    margin-bottom: 18px;
+}
+#part3>div>div:last-child>h2+p{
+    font-size: 22px;
+    font-weight: 300;
+    width: 45%;
+    margin-bottom: 15px;
+    line-height: 26px;
+    word-spacing: 3px;
+}
+#part3>div>div:last-child>h2+p+p{
+    font-size: 17px;
+    color: #00b289;
+    font-weight: bold;
+}
+#part3>div>div:last-child>h2+p+p>img{
+    margin-right: 10px;
+}
+
+/* Styling of backbox3 */
+
+.back-box3{
+    max-width: 700px;
+    height: 700px;
+    position: absolute;
+    right: 9%;
+    top: 20%;
+    z-index: -1;
+    outline: none;
+    /* background: red; */
+    background: #fff5e8;
+    border-radius: 100px;
+    transform: rotate(-23deg); 
+}
+
+/* style part-4 of home page */
+#part4{
+    margin-top: 40px;
+    text-align: center;
+    color: #4C525A;
+}
+
+#part4>h2{
+    margin: auto;
+    font-size: 32px;
+    width: 38%;
+    word-spacing: 10px;
+    line-height: 38px;
+    font-weight: 400;
+}
+#part4>p{
+    margin: auto;
+    font-size: 24px;
+    margin-top: 15px;
+    width: 36%;
+    line-height: 30px;
+    word-spacing: 5px;
+}
+
+/* style part-5 of home page */
+
+#part5{
+    display: flex;
+    width:50%;
+    margin: auto;
+    margin-top: 65px;
+    color: #4C525A;
+}
+
+#part5>div>img+p{
+    font-size: 22px;
+    margin-top: 25px;
+    font-weight: bold;
+    word-spacing: 3px;
+}
+
+#part5>div>img+p+p{
+    font-size: 17px;
+    margin-top: 10px;
+    font-weight: lighter;
+    word-spacing: 2px;
+}    
+
+#part5>div:last-child{
+    margin-left: 70px;
+}
+
+.afterPart5Heading{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 32px;
+    color: #4C525A;
+}
+
+/* style part-6 of home page */
+
+#part6{
+    width: 65%;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    color: #4C525A;
+}
+
+#part6>div>div+p{
+    width: 85%;
+    font-size: 22px;
+    margin-top: 28px;
+    word-spacing: 3px;
+}
+
+#part6>div>div+p+p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 32px;
+}
+
+#part6>div>div+p+p+p{
+    font-size: 20px;
+    margin-top: 7px;
+}
+
+.part6Img{
+    display: flex;
+    gap: 15px;
+}
+
+.part6Img>div{
+    width: 30%;
+}
+
+.part6Img>img{
+    height: 35%;
+    margin-top: 35%;
+}
+
+#part6>div:last-child{
+    margin-left: 50px;
+}
+
+.testimonial-image-1{
+    min-height: 200px;
+    padding-right: 84px;
+    padding-left: 83px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background-image: url("https://assets-global.website-files.com/58868bcd2ef4daaf0f072900/5888e1f5f34690422d33efce_david-mihm.jpg");
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.testimonial-image-2{
+    min-height: 200px;
+    padding-right: 84px;
+    padding-left: 83px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background-image: url("https://assets-global.website-files.com/58868bcd2ef4daaf0f072900/5888e56ffe81b74722a25aa8_DavidUrbinati.jpg");
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+/* style part-7 of home page */
+
+#part7{
+    width: 60%;
+    margin: auto;
+    margin-top: 140px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #4C525A;
+    padding: 10px;
+    background-color: #f2faff;
+}
+
+#part7>h1{
+    font-size: 44px;
+    font-weight: 500;
+}
+
+#part7>button{
+    height: 45px;
+    padding: 7px 22px;
+    background-color: #00b289;
+    font-weight: bold;
+    border: 1px solid grey;
+    border-radius: 5px;
+    color: white;
+}
+
+#part7>button:hover{
+    cursor: pointer;
+    background-color: #019b77;
+}
+
