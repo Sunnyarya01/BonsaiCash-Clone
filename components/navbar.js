@@ -2,7 +2,7 @@ let navbar = ()=>{
     return `
     <div class="navbar">
     <div class="logo">
-      <a href="#"><img src="https://assets-global.website-files.com/58868bcd2ef4daaf0f072900/5e5fd7c602ca7cd432feb68e_bonsai-logo.svg" alt="logo"/></a>
+      <a href="index.html"><img src="https://assets-global.website-files.com/58868bcd2ef4daaf0f072900/5e5fd7c602ca7cd432feb68e_bonsai-logo.svg" alt="logo"/></a>
     </div>
     <nav>
       <ul>
@@ -17,7 +17,7 @@ let navbar = ()=>{
             </div>
             <hr>
             <div class="productDropdown">
-                <a href="#">
+                <a href="bonsaiTax.html">
                     <h2>Bonsai Tax</h2>
                     <p>Track expenses, maximize tax write-offs, and estimate taxes without the headache</p>                       
                 </a>
@@ -80,8 +80,8 @@ let navbar = ()=>{
         </li>
         <li><a href="#">Pricing</a></li>
         <li><a href="#">Reviews</a></li>
-        <button class="btn1"><a href="#">LOG IN</a></button>
-        <button class="btn2"><a href="#">START FREE</a></button>
+        <button class="btn1"><a href="login.html">LOG IN</a></button>
+        <button class="btn2"><a href="signup.html">START FREE</a></button>
       </ul>
     </nav>
   </div>`
