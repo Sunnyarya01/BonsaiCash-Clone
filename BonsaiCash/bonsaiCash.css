@@ -1,0 +1,473 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+/* staring of section  ----------------------------------------------- 01  */
+.section_main {
+  width: 100%;
+  background-image: url(./image/image_01.png), url(./image/image_02.png);
+  padding-top: 8rem;
+  padding-bottom: 32rem;
+  background-position: 50% 100%, 0 0;
+  background-size: contain, 100% 100%;
+  background-repeat: no-repeat, repeat;
+}
+
+.heading {
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 50px;
+  font-weight: 700;
+  margin-top: -20px;
+  font-family: "Proximanova opt", sans-serif;
+  color: #072125;
+}
+
+.r_para {
+  color: #072125;
+  font-size: 1.25rem;
+  line-height: 140%;
+  font-weight: 400;
+  font-family: "Proximanova opt", sans-serif;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.r_signUp {
+  text-align: center;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.r_signUp > a {
+  text-decoration: none;
+  padding: 15px 25px;
+  border-radius: 8px;
+  font-size: 20px;
+  line-height: 150%;
+  background-color: #00b289;
+  color: white;
+  font-family: "Proximanova opt", sans-serif;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.r_signUp > a:hover {
+  background-color: #072125;
+}
+/* ending of section -------------------------- 01  */
+
+/* stargin of section ----------------------02  */
+
+.r_section_02 {
+  position: relative;
+  overflow: hidden;
+}
+
+/* start of box design  */
+.r_box_1 {
+  width: 40%;
+  height: 300px;
+  position: absolute;
+  z-index: -2;
+  background: #f2faff;
+  border-radius: 80px;
+  transform: rotate(5deg);
+  left: 20px;
+  top: 150px;
+}
+
+.r_box_2 {
+  width: 50%;
+  height: 400px;
+  position: absolute;
+  z-index: -1;
+  background: #b2ddd68c;
+  border-radius: 80px;
+  transform: rotate(160deg);
+  top: -75px;
+  left: -290px;
+}
+
+.r_box_3 {
+  width: 50%;
+  height: 400px;
+  position: absolute;
+  z-index: -2;
+  background: #fff5e8;
+  border-radius: 80px;
+  transform: rotate(30deg);
+  bottom: 5px;
+  right: -100px;
+}
+/* ending of box design  */
+
+.r_section_02 > h2 {
+  width: 45%;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 120%;
+  color: #072125;
+  font-family: "Proximanova opt", sans-serif;
+  text-align: center;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.r_pva {
+  width: 100%;
+  display: flex;
+  margin-top: 70px;
+}
+
+.r_pva > div {
+  width: 100%;
+}
+
+.r_pva_content > h3 {
+  font-family: Lato, sans-serif;
+  color: #072125;
+  font-weight: 600;
+  font-size: 2.25rem;
+  line-height: 120%;
+  margin-left: 130px;
+}
+
+.r_pva_content > p {
+  color: gray;
+  font-size: 1.25rem;
+  line-height: 140%;
+  font-family: "Proximanova opt", sans-serif;
+  margin-left: 130px;
+  width: 60%;
+  margin-top: 12px;
+}
+
+.r_pva_content > h3:nth-child(3) {
+  margin-top: 150px;
+}
+
+.r_pva_content > h3:nth-child(5) {
+  margin-top: 150px;
+}
+.r_pva_img > img {
+  width: 120%;
+  margin-left: 75px;
+}
+
+.r_pva_img {
+  overflow: hidden;
+}
+
+/* ending of section  ---------------------------------------------------------- 02  */
+
+/* starting of section --------------------------------- 03  */
+
+.r_section_03 {
+  margin-top: -4px;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 6.29rem;
+  padding-bottom: 4.25rem;
+  background: #0c3d31;
+  color: #fff;
+  position: relative;
+  /* z-index: -2; */
+}
+
+/* box section 03  */
+
+.r_section_03_box_1 {
+  width: 40%;
+  height: 300px;
+  position: absolute;
+  /* z-index: -1; */
+  background: #3a635a;
+  border-radius: 50px;
+  transform: rotate(15deg);
+  top: -80px;
+  left: -180px;
+}
+
+.r_section_03_box_2 {
+  width: 40%;
+  height: 300px;
+  position: absolute;
+  /* z-index: -1; */
+  background: #3a635a;
+  border-radius: 50px;
+  transform: rotate(150deg);
+  bottom: -200px;
+  left: 120px;
+}
+
+.sub_section_03 {
+  display: flex;
+  gap: 40px;
+}
+
+.sub_section_03 > div {
+  width: 80%;
+  height: 400px;
+}
+
+.sub_section_03 > div > img {
+  width: 84%;
+  margin-left: 105px;
+  margin-top: 30px;
+  position: relative;
+}
+
+.sub_section_03 > div:last-child > p {
+  font-size: 1.25rem;
+  line-height: 140%;
+  font-weight: 400;
+  font-family: "Proximanova opt", sans-serif;
+}
+
+.sub_section_03 > div:last-child > h2 {
+  font-size: 2.5rem;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: "Proximanova opt", sans-serif;
+  width: 85%;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.sub_section_03 > div:last-child > a {
+  text-decoration: none;
+  background: #fff;
+  padding: 1rem 1.5rem;
+  font-size: 20px;
+  line-height: 150%;
+  border-radius: 8px;
+  text-align: center;
+  color: #0c3d31;
+  border: none;
+  font-family: "Proximanova opt", sans-serif;
+}
+
+.sub_section_03 > div:last-child > a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+/* ending of section ------------------------------------------------------------ 03  */
+
+/* staring of section  -------------------------------------- 04  */
+
+.r_section_04 {
+  width: 100%;
+  display: flex;
+  gap: 40px;
+  position: relative;
+}
+/* box desgin  */
+
+.backgound_design {
+  position: relative;
+  overflow: hidden;
+}
+.r_section_04_box_1 {
+  width: 30%;
+  height: 250px;
+  border-radius: 50px;
+  background: #fff5e8;
+  transform: rotate(160deg);
+  position: absolute;
+  left: 12%;
+  top: 16%;
+}
+
+.r_section_04_box_2 {
+  width: 50%;
+  height: 400px;
+  border-radius: 100px;
+  background: #e7f4fc;
+  transform: rotate(20deg);
+  position: absolute;
+  bottom: -10%;
+  left: -10%;
+}
+
+.r_section_04_box_3 {
+  width: 40%;
+  height: 350px;
+  border-radius: 50px;
+  background: #fff5e8;
+  transform: rotate(160deg);
+  position: absolute;
+  z-index: 1;
+  top: 34%;
+  right: 10%;
+}
+
+.r_section_04 > div {
+  width: 100%;
+}
+
+.r_section_04_img > img {
+  width: 70%;
+  display: block;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 60px;
+}
+
+.r_section_04_content > h2 {
+  font-size: 2.5rem;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: "Proximanova opt", sans-serif;
+  color: #072125;
+  width: 80%;
+  margin-top: 200px;
+}
+
+.r_section_04_content > p {
+  color: #072125;
+  font-size: 1.25rem;
+  line-height: 140%;
+  font-family: "Proximanova opt", sans-serif;
+  font-weight: 400;
+  width: 60%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.r_section_04_content > a {
+  text-decoration: none;
+  padding: 15px 25px;
+  border-radius: 8px;
+  font-size: 20px;
+  line-height: 150%;
+  background-color: #00b289;
+  color: white;
+  font-family: "Proximanova opt", sans-serif;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.r_section_04_content > a:hover {
+  background-color: #072125;
+}
+
+.section_4_part_2 {
+  background: #fafafa;
+}
+
+.content_part_2 > h2 {
+  width: 50%;
+  margin-left: 150px;
+  position: relative;
+  z-index: 1;
+}
+.content_part_2 > p {
+  margin-left: 150px;
+}
+.content_part_2 > a {
+  margin-left: 150px;
+}
+
+.content_part_2 > img {
+  position: absolute;
+  max-width: 120px;
+  top: 32%;
+  left: 21%;
+}
+
+.img_part_2 > img {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+/* ending of section ----------------------------------------------------------------- 04 */
+
+/* starting of lower section ------------------------------------------------------ */
+
+.r_lower_section {
+  width: 100%;
+  position: relative;
+  margin-top: -60px;
+  background-color: #fff;
+}
+
+.r_lower_section > h2 {
+  width: 45%;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 120%;
+  color: #072125;
+  font-family: "Proximanova opt", sans-serif;
+  text-align: center;
+  margin: auto;
+  margin-top: 150px;
+}
+
+.r_lower_section > p {
+  color: gray;
+  font-size: 1.25rem;
+  line-height: 140%;
+  font-family: "Proximanova opt", sans-serif;
+  margin: auto;
+  width: 30%;
+  margin-top: 12px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.r_lower_section > a {
+  text-decoration: none;
+  padding: 15px 25px;
+  border-radius: 8px;
+  font-size: 20px;
+  line-height: 150%;
+  background-color: #00b289;
+  color: white;
+  font-family: "Proximanova opt", sans-serif;
+  cursor: pointer;
+  transition: 0.5s;
+  margin-left: 42.5%;
+}
+
+.r_lower_section > a:hover {
+  background-color: #072125;
+}
+
+.lower_section_img {
+  width: 100%;
+  margin-top: 80px;
+  position: relative;
+  /* overflow: hidden; */
+}
+
+.lower_section_img > img:first-child {
+  width: 50%;
+  display: block;
+  margin: auto;
+}
+
+.lower_section_img > img:nth-child(2) {
+  position: absolute;
+  top: -70%;
+  left: -11%;
+  width: 30%;
+  z-index: 0;
+}
+
+.lower_section_img > img:last-child {
+  position: absolute;
+  top: 0;
+  left: 53%;
+  width: 30%;
+}
+
+.empty_div {
+  width: 100%;
+  height: 70px;
+  position: relative;
+  background: white;
+}
+/* ending of lower section ------------------------------------------------------ */
