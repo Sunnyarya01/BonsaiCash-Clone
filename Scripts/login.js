@@ -12,7 +12,7 @@ let login = document.querySelector("#btnn");
         }
 
         if(checkSignin(data.email,data.password)===true){
-            window.location.href="fw19_0799_projects/Dashboard/index.html"
+            window.location.href="dashboard.html"
             alert("Sign in Successful");
             name(data.email)
         }else{
