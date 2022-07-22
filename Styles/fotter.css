@@ -1,0 +1,26 @@
+#footer{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 500px;
+    color: #4C525A;
+    margin-top: 140px;
+    margin-bottom: 150px;
+}
+
+#footer>div{
+    /* border: 1px solid teal; */
+    width: 20%;
+    /* text-align: center; */
+}
+
+#footer>div>p{
+    font-size: 17px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+#footer>div>h3{
+    font-size: 21px;
+    cursor: pointer;
+}
