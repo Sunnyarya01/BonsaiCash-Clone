@@ -20,11 +20,11 @@ let form = document.querySelector("form");
         }
         if(checkEmails(data.email)===true){
             alert("Sign UP Sucessfull")
-            window.location.href="Login Page/index.html"
+            window.location.href="login.html"
             userData.push(data);
             localStorage.setItem("userData",JSON.stringify(userData));
         }else{
-            window.location.href="Login Page/index.html"
+            window.location.href="login.html"
             alert("Account Already Exists");
         }
     })
