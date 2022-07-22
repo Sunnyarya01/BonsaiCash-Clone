@@ -16,8 +16,8 @@ let login = document.querySelector("#btnn");
             alert("Sign in Successful");
             name(data.email)
         }else{
-            alert("Wrong Username or Password");
             window.location.href="signup.html"
+            alert("Wrong Username or Password");
         }
     })
 

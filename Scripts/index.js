@@ -93,3 +93,9 @@ function forms(){
                 </p>
                 <img style="margin-left: 50px;" src="https://assets-global.website-files.com/58868bcd2ef4daaf0f072900/6050af50cd2ff1fc7708d532_home-forms-opt.png" width="80%" alt="">`
 }
+document.querySelector("#input>button").addEventListener("click",()=>{
+    window.location.href="login.html";
+})
+document.querySelector("#part7>button").addEventListener("click",()=>{
+    window.location.href="signup.html";
+})

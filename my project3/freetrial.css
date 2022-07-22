@@ -161,10 +161,10 @@ body{
     flex-direction: row;
 }
 .cvv-input > input{
-    width: 400%;
+    width: 100%;
     padding-left: 2%;
-    margin-top: 170%;
-
+    /* margin-top: 170%; */
+    margin-top: 20px;
     height: 3.0vh;
     border: 1px solid rgb(204,208,210);
 }
@@ -177,7 +177,7 @@ body{
     /* border: 1px solid rgb(204,208,210); */
 }
 .year-field-wrapper{
-    margin-top: 10.3%;
+    margin-top: 21px;
     padding-left: 15%;
     padding-right: 10%;
 }

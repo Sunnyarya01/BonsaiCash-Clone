@@ -28,3 +28,6 @@ function timer(){
     })
 }
 timer()
+document.querySelector(".free_trial").addEventListener("click",()=>{
+    window.location.href="my project3/payment.html"
+})

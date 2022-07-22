@@ -268,4 +268,9 @@
 
   import footer from "../components/footer.js";
   document.querySelector("footer").innerHTML = footer();
+
+  document.querySelector("form").addEventListener("submit",(event)=>{
+    event.preventDefault();
+    window.location.href = "login.html"
+  })
 </script>
