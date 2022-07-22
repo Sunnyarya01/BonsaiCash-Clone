@@ -1,6 +1,6 @@
 let gogl = document.querySelector("#gogl");
 gogl.addEventListener("click",function(){
-    window.location.href = "../index.html"
+    window.location.href = "signup.html"
 })
 let form = document.querySelector("form");
 let login = document.querySelector("#btnn");
@@ -12,10 +12,12 @@ let login = document.querySelector("#btnn");
         }
 
         if(checkSignin(data.email,data.password)===true){
-            window.location.href="/fw19_0799_projects/Dashboard/index.html"
+            window.location.href="fw19_0799_projects/Dashboard/index.html"
             alert("Sign in Successful");
+            name(data.email)
         }else{
             alert("Wrong Username or Password");
+            window.location.href="signup.html"
         }
     })
 
@@ -28,4 +30,10 @@ let login = document.querySelector("#btnn");
         }else{
             return false;
         }
+    }
+    let name = (email)=>{
+        userData.forEach((element) => {
+            if(element.email == email)
+            localStorage.setItem("Name_on_Dashboard", element.name)    
+        });
     }

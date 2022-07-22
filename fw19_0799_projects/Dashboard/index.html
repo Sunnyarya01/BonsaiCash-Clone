@@ -1,116 +1,366 @@
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Dashboard - Bonsai</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="icon" href="../icons/favicon.ico">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="/frank-digestion-6511/assets/favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+  </head>
+  <body>
     <!-- Main Container Start -->
     <div class="main_container">
-        <!-- Aside Start -->
-        <div class="aside">
-            <div class="logo">
-                <div id="logo">
-                    <a href="./index.html"><img src="https://app.hellobonsai.com/packs/static/bonsai-623ed86a47a195e7f9e2.svg" alt=""></a>
-                </div>
-                <div class="plus">
-                    <a href="#"><img src="/fw19_0799_projects/icons/icons8-sum-80.png" alt=""></a>
-                </div>
-            </div>
-            <ul class="first nav">
-                <li><a href="./index.html" class="active"><i class="fa fa-home"></i> Home </a></li>
-                <li><a href="#"><i class="fa fa-users"></i> Clients </a></li>
-                <li><a href="#"><i class="fa fa-folder"></i> Projects </a></li>
-            </ul>
-            <ul class="second nav">
-                <li><a href="#" class="active"><i class="fa fa-file"></i> Proposals </a></li>
-                <li><a href="#"><i class="fa fa-user"></i> Contacts </a></li>
-                <li><a href="#"><i class="fa fa-file-invoice"></i> Invoices </a></li>
-            </ul>
-            <ul class="third nav">
-                <li><a href="#" class="active"><i class="fa fa-clock"></i> Time Tracking </a></li>
-                <li><a href="#"><i class="fa fa-list-check"></i> Tasks </a></li>
-            </ul>
-            <ul class="fourth nav">
-                <li><a href="#" class="active"><i class="fa fa-wallet"></i> Cash </a></li>
-                <li><a href="#"><i class="fa fa-receipt"></i> Accounting </a></li>
-                <li><a href="#"><i class="fa fa-money-bill-1"></i> Taxes </a></li>
-            </ul>
-            <div class="nav1">
-                <ul class="fifth">
-                    <li><a href="#" class="last active"><i class="last fa fa-gift"></i> Get One Month Free </a></li>
-                </ul>
-            </div>
+      <!-- Aside Start -->
+      <div class="aside">
+        <div class="logo">
+          <div id="logo">
+            <a href="./index.html"
+              ><img
+                src="https://app.hellobonsai.com/packs/static/bonsai-623ed86a47a195e7f9e2.svg"
+                alt=""
+            /></a>
+          </div>
+          <div class="plus">
+            <a href="#"
+              ><img src="/fw19_0799_projects/icons/icons8-sum-80.png" alt=""
+            /></a>
+          </div>
         </div>
-        <!-- Aside End -->
-        <!-- Main Content Start -->
-        <div class="main-content">
-            <!-- nav bar for dashboard start -->
-            <div class="main_nav">
-                <div class="search">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                    <input type="search" id="query" placeholder="Search">
-                </div>
-                <div class="free_trial">
-                    <img src="https://www.svgrepo.com/show/309883/premium.svg" alt="">
-                    <p>Start free trial</p>
-                </div>
-                <div class="timer">
-                    <img src="../icons/download (1).png" alt="">
-                    <p>Start Timer</p>
-                </div>
-                <div class="profile">
-                    <img src="../icons/download.png" alt="">
-                </div>
-            </div>
-            <!-- nav bar for dashboard end -->
-            <!-- main conatainer start  -->
-            <div class="main_container">
-                <div class="name_and_greeting">
-                    1
-                </div>
-                <div class="tasks">
-                    2
-                </div>
-                <div class="all_content">
-                    <div class="left">
-                        <div class="project_timeline">
-                            3
-                        </div>
-                        <div class="expense">
-                            4
-                        </div>
-                        <div class="upcoming_tasks">
-                            5
-                        </div>
-                        <div class="bank">
-                            6
-                        </div>
-                        <div class="time_trak">
-                            7
-                        </div>
-                    </div>
-                    <div class="right">
-                        <div class="s1">
-                            <div>8</div>
-                            <div>9</div>
-                            <div>10</div>
-                        </div>
-                        <div class="s2">
-                            <div>11</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <ul class="first nav">
+          <li>
+            <a href="./index.html" class="active"
+              ><i class="fa fa-home"></i> Home
+            </a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-users"></i> Clients </a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-folder"></i> Projects </a>
+          </li>
+        </ul>
+        <ul class="second nav">
+          <li>
+            <a href="#" class="active"><i class="fa fa-file"></i> Proposals </a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-user"></i> Contacts </a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-file-invoice"></i> Invoices </a>
+          </li>
+        </ul>
+        <ul class="third nav">
+          <li>
+            <a href="#" class="active"
+              ><i class="fa fa-clock"></i> Time Tracking
+            </a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-list-check"></i> Tasks </a>
+          </li>
+        </ul>
+        <ul class="fourth nav">
+          <li>
+            <a href="#" class="active"><i class="fa fa-wallet"></i> Cash </a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-receipt"></i> Accounting </a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-money-bill-1"></i> Taxes </a>
+          </li>
+        </ul>
+        <div class="nav1">
+          <ul class="fifth">
+            <li>
+              <a href="#" class="last active"
+                ><i class="last fa fa-gift"></i> Get One Month Free
+              </a>
+            </li>
+          </ul>
         </div>
-        <!-- Main Content End -->
+      </div>
+      <!-- Aside End -->
+      <!-- Main Content Start -->
+      <div class="main-content">
+        <!-- nav bar for dashboard start -->
+        <div class="main_nav">
+          <div class="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="search" id="query" placeholder="Search" />
+          </div>
+          <div class="free_trial">
+            <img src="https://www.svgrepo.com/show/309883/premium.svg" alt="" />
+            <p>Start free trial</p>
+          </div>
+          <div class="timer">
+            <img src="/frank-digestion-6511/assets/download (1).png" alt="" />
+            <p>Start Timer</p>
+          </div>
+          <div class="profile">
+            <a href="/frank-digestion-6511/signup.html"><img src="/frank-digestion-6511/assets/download.png" alt="" /></a>
+          </div>
+        </div>
+        <!-- nav bar for dashboard end -->
+        <!-- main conatainer start  -->
+        <div class="main_container">
+          <div class="name_and_greeting">
+            <div class="ads">
+                <div class="notice">
+                    <span><a href="#">Start 7 Day Free Trial</a></span>
+                    <span>You currently don’t have an active subscription. <a href="#">Start your Free Trial!</a></span>
+                </div>
+            </div>
+            <div class="gm">
+                <img src="https://app.hellobonsai.com/packs/static/good-afternoon-b0990cefb6300b05f216.svg" alt="">
+                <div class="date fast">
+                    Thursday, July 22nd
+                </div>
+                <div class="welcome fast">
+                    <h2>Good afternoon, Sunni!</h2>
+                </div>
+            </div>
+          </div>
+          <div class="tasks">
+            <div class="left1">
+              <div class="listss selected">
+                <span class="number">1</span>
+                <span class="title">Create Your First Project</span>
+              </div>
+              <div class="listss">
+                <span class="number">2</span>
+                <span class="title">Add Company Details</span>
+              </div>
+              <div class="listss">
+                <span class="number">3</span>
+                <span class="title">Setup your branding</span>
+              </div>
+              <div class="listss">
+                <span class="number">4</span>
+                <span class="title">Connect your calander</span>
+              </div>
+              <div class="listss">
+                <span class="number">5</span>
+                <span class="title">Connect a bank account</span>
+              </div>
+            </div>
+            <div class="right1">
+              <img src="https://app.hellobonsai.com/assets/dashboard/project_icon-cab4656b287c33bbf7cf081d205ac0698acc6ec5608a40d3ca388df1549ad089.svg" alt="">
+              <div class="tt">
+                <h2>Create your first Project</h2>
+              </div>
+              <div class="text">
+                <p>Projects allow you to organize all of the tasks related to a specific initiative, goal, or big <br> piece and track progress.</p>
+              </div>
+              <a href="#" id="btn">Create a Project</a>
+              <a href="#" id="next">Next Step</a>
+            </div>
+          </div>
+          <div class="all_content"> 
+            <div class="left">
+              <div class="project_timeline">
+                <div class="upper">
+                  Project Timeline
+                </div>
+                <div class="lower">
+                  No Current activity if time frame
+                </div>
+              </div>
+              <div class="expense">
+                <div class="time_nav">
+                  <div class="m">
+                    <p>Income & Expense</p>
+                    <select title="inr" id="inr">
+                      <option value="inr">INR</option>
+                    </select>
+                    <select title="inr" id="hstry">
+                      <option value="14">Last 14 Days</option>
+                      <option value="30">Last 30 Days</option>
+                      <option value="60">Last 2 Month</option>
+                      <option value="150">Last 6 Month</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="time_body">
+                  No Record
+                </div>
+                <div class="time_foor">
+                  <div>
+                    <p>Outstanding</p>
+                    <p><i class="fa-solid fa-indian-rupee-sign"></i>0.00</p>
+                  </div>
+                  <div>
+                    <p>Overdue</p>
+                    <p><i class="fa-solid fa-indian-rupee-sign"></i>0.00</p>
+                  </div>
+                  <div>
+                    <p>Paid & Pending</p>
+                    <p><i class="fa-solid fa-indian-rupee-sign"></i>0.00</p>
+                  </div>
+                  <div>
+                    <p>Other Icome</p>
+                    <p><i class="fa-solid fa-indian-rupee-sign"></i>0.00</p>
+                  </div>
+                </div>
+              </div>
+              <div class="upcoming_tasks">
+                <div class="upper">
+                  My Upcoming & Overdue Tasks
+                </div>
+                <div class="lower">
+                  No tasks yet
+                </div>
+              </div>
+              <div class="bank">
+                <button onclick="cancel()" id="canvel">x</button>
+                <a href="#">
+                  <h4>Connect a US, UK or Canadian bank account to automatically import expenses.</h4>
+                  <p>Add Bank Account</p>
+                </a>
+              </div>
+              <div class="time_trak">
+                <div class="time_nav">
+                  <div class="m">
+                    <p>Time track</p>
+                    <select title="inr" id="inr">
+                      <option value="inr">INR</option>
+                    </select>
+                    <select title="inr" id="hstry">
+                      <option value="14">Last 14 Days</option>
+                      <option value="30">Last 30 Days</option>
+                      <option value="60">Last 2 Month</option>
+                      <option value="150">Last 6 Month</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="time_body">
+                  No Record
+                </div>
+                <div class="time_foor">
+                  <div>
+                    <p>Unbilled Hours</p>
+                    <p>00:00:00</p>
+                  </div>
+                  <div>
+                    <p>Unbilled Ammount</p>
+                    <p><i class="fa-solid fa-indian-rupee-sign"></i>0.00</p>
+                  </div>
+                  <div>
+                    <p>Billed Hours</p>
+                    <p>00:00:00</p>
+                  </div>
+                  <div>
+                    <p>Billed Ammount</p>
+                    <p><i class="fa-solid fa-indian-rupee-sign"></i>0.00</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="right">
+              <div class="s1">
+                <div>
+                  <div class="img8">
+                    <img src="../icons/img8.png" alt="">
+                  </div>
+                  <div class="p"><p>Draft a Proposal</p></div>
+                  
+                </div>
+                <div>
+                  <div class="img9">
+                    <img src="../icons/img9.png" alt="">
+                  </div>
+                  <div class="p"><p>Create a Contact</p></div>
+                  
+                </div>
+                <div>
+                  <div class="img10">
+                    <img src="../icons/img10.png" alt="">
+                  </div>
+                  <div class="p"><p>Send an Invoices</p></div>
+                  
+                </div>
+              </div>
+              <div class="s2">
+                <div>
+                  <div class="upper">
+                    Activity
+                  </div>
+                  <div class="lower">
+                    No activity yet
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- footer start -->
+        <div class="fotter">
+          <div class="first-f">
+            <a href="#">Feature Requests</a>
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">Blog & Resourses</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Privacy and Policy</a></li>
+          </div>
+          <div class="second-f">
+            <span>Bonsai Apps :- <a href="#"><i class="fa-solid fa-mobile-screen-button"></i>i-phone</a>
+              <a href="#"><i class="fa-solid fa-laptop-code"></i>mac-book</a>
+              <a href="#"><i class="fa-brands fa-android"></i>Android</a>
+              <a href="#"><i class="fa-brands fa-chrome"></i>Chrome</a>
+            </span>
+          </div>
+          <div class="third-f">
+            <p>©2022 Bonsai Technologies Inc — Payments, banking, and issuing services are provided by <a href="#">Stripe Payments Company</a>, Evolve Bank & Trust (Member FDIC),<br> and Celtic Bank (Member FDIC), respectively. Bonsai is not a law firm, and does not provide legal services, advice, or representation.   <a href="#">Terms</a>    <a href="#">Credits</a></p>
+          </div>
+        </div>
+      </div>
+      <!-- Main Content End -->
     </div>
     <!-- Main Container End -->
-</body>
+  <!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script></body>
 </html>
 <script src="./main.js"></script>
