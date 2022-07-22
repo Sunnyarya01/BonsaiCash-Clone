@@ -7,6 +7,7 @@
     <title>Bonsai || Tax</title>
     <link rel="stylesheet" href="./Styles/bonsaiTax.css" />
     <link rel="stylesheet" href="./Styles/navbar.css">
+    <link rel="stylesheet" href="./Styles/footer.css">
     <link rel="shortcut icon" href="https://pbs.twimg.com/profile_images/727273167958372352/Hhjwyvyo_400x400.jpg" type="image/x-icon">
   </head>
   <body>
@@ -254,10 +255,17 @@
       <!-- end of lower section  -->
     </main>
     <!-- end of main page  -->
+
+    <footer id="footer">
+
+    </footer>
   </body>
 </html>
 
 <script type="module">
   import navbar from "./components/navbar.js"
   document.querySelector("header").innerHTML = navbar();
+
+  import footer from "../components/footer.js";
+  document.querySelector("footer").innerHTML = footer();
 </script>

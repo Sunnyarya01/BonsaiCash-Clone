@@ -2,6 +2,9 @@ import navbar from "../components/navbar.js";
 // console.log(navbar());
 document.querySelector("header").innerHTML = navbar();
 
+import footer from "../components/footer.js";
+document.querySelector("footer").innerHTML = footer();
+
 document.getElementById("clientCrm").addEventListener("click",clientCrm);
 
 function clientCrm(){
