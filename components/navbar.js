@@ -79,7 +79,7 @@ let navbar = ()=>{
           </div>
         </li>
         <li><a href="#">Pricing</a></li>
-        <li><a href="#">Reviews</a></li>
+        <li><a href="bonsaiReviews.html">Reviews</a></li>
         <button class="btn1"><a href="login.html">LOG IN</a></button>
         <button class="btn2"><a href="signup.html">START FREE</a></button>
       </ul>
