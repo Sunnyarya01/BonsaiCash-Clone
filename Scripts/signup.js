@@ -1,10 +1,10 @@
 let gogl = document.querySelector("#gogl");
 gogl.addEventListener("click",function(){
-    window.location.href = "./Login Page/index.html"
+    window.location.href = "login.html"
 })
 let login = document.querySelector(".login-btn>button").addEventListener("click",function(event){
     event.preventDefault()
-    window.location.href="Login Page/index.html"
+    window.location.href="login.html"
 })
 let form = document.querySelector("form");
     let userData = JSON.parse(localStorage.getItem("userData")) || [];
