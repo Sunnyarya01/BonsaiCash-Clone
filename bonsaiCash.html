@@ -5,9 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bonsai || Cash</title>
-    <link rel="stylesheet" href="bonsaiCash.css" />
+    <link rel="stylesheet" href="./Styles/bonsaiCash.css" />
+    <link rel="stylesheet" href="./Styles/navbar.css">
+    <link rel="stylesheet" href="./Styles/footer.css">
   </head>
   <body>
+    <header></header>
     <main>
       <!-- starting of section ------------------------------------------------------01 -->
       <div class="section_main">
@@ -66,7 +69,7 @@
             </p>
           </div>
           <div class="r_pva_img">
-            <img src="./image/image_03.png" alt="" />
+            <img src="./assets/image/image_03.png" alt="" />
           </div>
         </div>
         <!-- end of grid div  -->
@@ -83,7 +86,7 @@
 
         <div class="sub_section_03">
           <div>
-            <img src="./image/image_04.png" alt="lady_image" />
+            <img src="./assets/image/image_04.png" alt="lady_image" />
           </div>
           <div>
             <p>Raewyn Sangari, Virtual Assistant in Los Angeles, California</p>
@@ -106,7 +109,7 @@
 
         <div class="r_section_04">
           <div class="r_section_04_img">
-            <img src="./image/image_05.png" alt="" />
+            <img src="./assets/image/image_05.png" alt="" />
           </div>
           <div class="r_section_04_content">
             <h2>Do less accounting work thanks to easy expense management</h2>
@@ -132,7 +135,7 @@
         <div class="r_section_04 section_4_part_2">
           <div class="r_section_04_content content_part_2">
             <h2>Receive your money faster</h2>
-            <img src="./image/image_6.png" alt="" />
+            <img src="./assets/image/image_06.png" alt="" />
             <p>
               Collect your invoice payouts in your Bonsai Cash account in just
               seconds.
@@ -142,7 +145,7 @@
           </div>
 
           <div class="r_section_04_img img_part_2">
-            <img src="./image/image_06.png" alt="" />
+            <img src="./assets/image/image_06.png" alt="" />
           </div>
         </div>
       </div>
@@ -158,14 +161,24 @@
         </p>
         <a href="">Try Bonsai Cash</a>
         <div class="lower_section_img">
-          <img src="./image/image_07.png" alt="" />
-          <img src="./image/image_08.png" alt="" />
-          <img src="./image/image_09.png" alt="" />
+          <img src="./assets/image/image_07.png" alt="" />
+          <img src="./assets/image/image_08.png" alt="" />
+          <img src="./assets/image/image_09.png" alt="" />
         </div>
       </div>
       <!-- ending of section lower section ------------------------------------- last  -->
       <div class="empty_div"></div>
     </main>
     <!-- ------------------------------------*************** The End *****************----------------------------------  -->
+
+    <footer id="footer"></footer>
   </body>
 </html>
+
+<script type="module">
+  import navbar from "./components/navbar.js"
+  document.querySelector("header").innerHTML = navbar();
+
+  import footer from "../components/footer.js";
+  document.querySelector("footer").innerHTML = footer();
+</script>

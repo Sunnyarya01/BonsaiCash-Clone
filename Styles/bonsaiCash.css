@@ -7,7 +7,7 @@
 /* staring of section  ----------------------------------------------- 01  */
 .section_main {
   width: 100%;
-  background-image: url(./image/image_01.png), url(./image/image_02.png);
+  background-image: url(../assets/image/image_01.png), url(../assets/image/image_02.png);
   padding-top: 8rem;
   padding-bottom: 32rem;
   background-position: 50% 100%, 0 0;
