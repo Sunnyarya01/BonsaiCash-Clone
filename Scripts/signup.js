@@ -2,6 +2,7 @@ let gogl = document.querySelector("#gogl");
 gogl.addEventListener("click",function(){
     window.location.href = "login.html"
 })
+
 let login = document.querySelector(".login-btn>button").addEventListener("click",function(event){
     event.preventDefault()
     window.location.href="login.html"
