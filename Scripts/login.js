@@ -5,19 +5,20 @@ gogl.addEventListener("click",function(){
 let form = document.querySelector("form");
 let login = document.querySelector("#btnn");
     let userData = JSON.parse(localStorage.getItem("userData")) || [];
-    login.addEventListener("click",function(){
+    login.addEventListener("click",function(event){
+        event.preventDefault();
         let data = {
             email:form.user_email.value,
             password:form.user_password.value,
         }
 
         if(checkSignin(data.email,data.password)===true){
-            window.location.href="dashboard.html"
             alert("Sign in Successful");
+            window.location.href="dashboard.html"
             name(data.email)
         }else{
-            window.location.href="signup.html"
             alert("Wrong Username or Password");
+            window.location.href="signup.html"
         }
     })
 
