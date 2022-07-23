@@ -116,7 +116,7 @@ ul{
     width: 110px;
     color: white;
     padding: 5px 5px;
-    margin-left: 570px;
+    margin-left: 530px;
     margin-right: 20px;
     border-radius: 5px;
     font-size: small;
@@ -133,7 +133,7 @@ ul{
 }
 .timer{
     /* border: 1px solid #00b289; */
-    width: 150px;
+    /* width: 150px;/ */
     height: 50px;
     margin-left: 10px;
     cursor: pointer;
@@ -503,11 +503,30 @@ i{
     margin-right: 30px;
 }
 .js{
-    border: 1px solid red;
-    width: 150px;
+    border: 1px solid #00b289;
+    /* width: 150px; */
     height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: larger;
+    padding: 20px
+    ;
+}
+.js span{
+    margin-right: 20px;
+    color: red;
+    background-color: white;
+    font: bold;
+    border: 1px solid red;
+    padding: 0 8px;
+}
+.js span:hover{
+    margin-right: 20px;
+    color: white;
+    background-color: red;
+    font: bold;
+    cursor: pointer;
+    border: 1px solid red;
+    padding: 0 10px;
 }
