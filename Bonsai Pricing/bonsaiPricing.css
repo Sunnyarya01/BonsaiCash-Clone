@@ -1,0 +1,439 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+main {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.backgroun_box {
+  position: absolute;
+  width: 100%;
+  height: 1100px;
+  transform: rotate(70deg);
+  top: -20%;
+  left: 15%;
+  background-color: #f2faff;
+}
+
+/* /-----------------------------------------------------------------------------------------     starting planning  */
+
+#planning {
+  width: 100%;
+  height: 100px;
+  margin: auto;
+  margin-top: 9rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 50%;
+  position: relative;
+}
+
+#planning > h1 {
+  font-size: 2.5rem;
+  line-height: 120px;
+  font-weight: 400;
+  color: #4c525a;
+}
+
+.slide_button {
+  position: relative;
+  width: 60px;
+  height: 30px;
+  background-color: #00a881;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.circle {
+  position: absolute;
+  background-color: white;
+  width: 45%;
+  height: 85%;
+  margin-left: 2.5px;
+  border-radius: 100px;
+}
+.monthly_planning {
+  position: relative;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.monthly_planning > p {
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: 1.22px;
+  font-family: "Proximanova opt", sans-serif;
+  color: #4c525a;
+  line-height: 20px;
+}
+
+.monthly_planning > div > p {
+  opacity: 0.65;
+  color: #4c4d5f;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 1.22px;
+  font-family: "Proximanova opt", sans-serif;
+  line-height: 20px;
+}
+
+.monthly_planning > div > img {
+  position: absolute;
+  top: -115%;
+  left: 60%;
+}
+
+/* /-----------------------------------------------------------------------------------------------    ending planning  */
+
+/* .------------------------------------------------------------------------------------------ starting of three box  */
+
+#three_box {
+  width: 83%;
+  margin: auto;
+  margin-top: 40px;
+  display: flex;
+  gap: 25px;
+}
+
+.r_box {
+  width: 100%;
+  position: relative;
+  padding: 6% 4%;
+  overflow: hidden;
+  border-radius: 4px;
+  background: #fbfcff;
+  box-shadow: 0 0 68px 0 rgba(2, 4, 69, 0.241);
+  border: 0.3px solid rgba(2, 4, 69, 0.15);
+}
+
+.r_para1 {
+  font-size: 1.625rem;
+  line-height: 1.4;
+  font-weight: 600;
+  font-family: "Proximanova opt", sans-serif;
+  color: #4c525a;
+}
+
+.r_para2 {
+  font-family: "Proximanova opt", sans-serif;
+  color: #4c525a;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  width: 90%;
+}
+
+.r_price_box {
+  width: 100%;
+  height: 80px;
+  margin-top: 20px;
+  display: flex;
+}
+
+.currency_symbol {
+  align-self: flex-start;
+  font-size: 30px;
+  line-height: 28px;
+  font-weight: 400;
+  position: relative;
+  top: 10px;
+  margin-right: 10px;
+  font-family: "Proximanova opt", sans-serif;
+  color: #4c525a;
+}
+
+.r_price_box > p {
+  font-size: 62px;
+  line-height: 72px;
+  font-weight: 600;
+  font-family: "Proximanova opt", sans-serif;
+  color: #4c525a;
+}
+
+.r_month {
+  margin-top: 40px;
+  margin-left: 25px;
+  font-weight: 400;
+  font-size: 1.625rem;
+  line-height: 1.4;
+  font-family: "Proximanova opt", sans-serif;
+  color: #4c525a;
+}
+
+hr {
+  border: 1px solid #01b289;
+}
+
+#features_plan {
+  width: 100%;
+  height: 500px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.features {
+  width: 100%;
+  height: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.features > img {
+  width: 5%;
+}
+.r_features {
+  color: #4c4d5f;
+  font-size: 16px;
+  line-height: 23px;
+  font-family: "Proximanova opt", sans-serif;
+  margin-left: 10px;
+}
+
+.r_box > a {
+  display: block;
+  text-align: center;
+  padding: 22px 25px;
+  background-color: #00b289;
+  font-weight: 700;
+  letter-spacing: 0.7px;
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Proximanova opt", sans-serif;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+.popular {
+  position: absolute;
+  right: -24%;
+  top: 6%;
+  width: 90%;
+  height: 45px;
+  transform: rotate(40deg);
+  background-color: #00b289;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 1px;
+  font-family: "Proximanova opt", sans-serif;
+}
+/* .------------------------------------------------------------------------------------------ ending of three box  */
+
+/* /super  */
+
+.r_super {
+  width: 100%;
+  text-align: center;
+  margin-top: 110px;
+}
+
+.r_super > h2 {
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 140%;
+  color: #4c525a;
+}
+
+/* / end of super  */
+
+/* . three plan  */
+
+#three_plan {
+  width: 83%;
+  height: 500px;
+  margin: auto;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.r_p {
+  width: 100%;
+  padding: 40px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 60px 0 rgba(2, 4, 69, 0.249);
+  border-radius: 8px;
+}
+
+.r_para3 {
+  font-weight: 600;
+  font-size: 1.375rem;
+  line-height: 1.4;
+  font-family: "Proximanova opt", sans-serif;
+  color: #4c525a;
+}
+
+.r_para4 {
+  font-size: 1rem;
+  font-weight: 300;
+  font-family: "Proximanova opt", sans-serif;
+  color: #4c525a;
+}
+
+.r_para5 {
+  font-size: 2rem;
+  line-height: 140%;
+  font-weight: 700;
+  font-family: "Proximanova opt", sans-serif;
+  color: #4c525a;
+  margin-right: 100px;
+}
+
+.learn_more > a {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  cursor: pointer;
+  color: #00b289;
+  text-decoration: none;
+  font-family: "Proximanova opt", sans-serif;
+  display: block;
+}
+
+.arrow_img {
+  width: 1.3%;
+  margin-left: 3px;
+  transition: 0.5s;
+}
+
+.learn_more:hover .arrow_img {
+  transform: translate(6px, 0px);
+}
+
+.r_para6 {
+  font-weight: 600;
+  text-align: center;
+  font-size: 2.75rem;
+  line-height: 130%;
+  font-family: "Proximanova opt", sans-serif;
+  color: #4c525a;
+  margin-right: 100px;
+}
+
+.r_para7 {
+  font-size: 0.875rem;
+  line-height: 133%;
+  font-weight: 400;
+  text-align: center;
+  font-family: "Proximanova opt", sans-serif;
+  color: #4c525a;
+  text-align: left;
+}
+
+.p8 {
+  margin-left: 10px;
+}
+.p9 {
+  margin-right: 119px;
+}
+/* . ending of three plan  */
+
+/* .startng of business  */
+
+.business {
+  width: 70%;
+  margin: auto;
+  padding: 70px 40px;
+  margin-top: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f2faff;
+}
+
+.business > div:first-child {
+  font-size: 2.75rem;
+  line-height: 130%;
+  color: #4c525a;
+  font-weight: 400;
+}
+
+.business > div:first-child > span {
+  color: #00b289;
+}
+
+.business > div:last-child > a {
+  padding: 15px 25px 13px;
+  border-radius: 4px;
+  text-align: center;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: "Proximanova opt", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  background-color: #00a881;
+  color: #fff;
+}
+
+.business > div:last-child > a:hover {
+  background-color: #00b289;
+}
+/* . ending of business  */
+
+/* /starting  of frequently asked questions  */
+
+.frequently_ask > h2 {
+  margin-top: 150px;
+  color: #00b289;
+  text-align: center;
+  font-family: "Proximanova opt", sans-serif;
+  font-size: 32px;
+  line-height: 38px;
+  font-weight: 700;
+}
+
+.ask_questions {
+  width: 60%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.ask_questions > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ask_questions > div > h2 {
+  font-size: 25px;
+  line-height: 30px;
+  cursor: pointer;
+  font-family: "Proximanova opt", sans-serif;
+  color: #4c525a;
+  font-weight: 700;
+}
+
+.ask_questions > div > img {
+  width: 3%;
+}
+
+.ask_questions > div:hover h2 {
+  color: #00b289;
+}
+
+/* /ending  of frequently asked questions    */
